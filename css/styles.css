@@ -17,12 +17,17 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+.button {
+  cursor: pointer;
+}
 
 /* 📌===logo */
 
 .logo {
   color: var(--accent-color);
-
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -140,17 +145,16 @@ body {
 }
 
 /*============ second page */
-.section-button {
+.filter-button {
   background: #f4f4fd;
   color: #4d5ae5;
 
-  font-weight: 500;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
 }
-.section-button:hover,
-.section-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   background: #404bbf;
   color: #ffffff;
 }
