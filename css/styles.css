@@ -1,9 +1,8 @@
 :root {
   --primary-text-color: #434455;
-  --secondary-text-color: #e7e9fc;
-
+  --secondary-text-: #e7e9fc;
   --secondary-background-color: #f4f4fd;
-
+  --variable-color: #404bbf;
   --blue-color: #2e2f42;
   --accent-color: #4d5ae5;
   --white-color: #ffffff;
@@ -71,7 +70,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link.current {
-  color: #404bbf;
+  color: var(--variable-color);
 }
 
 /*📌===contacts */
@@ -86,7 +85,7 @@ body {
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--variable-color);
 }
 
 /*📌=== hero  */
@@ -114,7 +113,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background-color: var(--variable-color);
 }
 /* 📌===advantages */
 
@@ -145,7 +144,7 @@ body {
 /* 📌 === Our Team */
 
 .our-team {
-  background: #f4f4fd;
+  background-color: var(--secondary-background-color);
 }
 .staff-title {
   color: var(--blue-color);
@@ -176,18 +175,18 @@ body {
 
 /*============ second page */
 .filter-button {
-  background: #f4f4fd;
-
+  background-color: var(--secondary-background-color);
+  color: var(--accent-color);
   font-family: inherit;
-  color: #4d5ae5;
+
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
 }
 .filter-button:hover,
 .filter-button:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background-color: var(--variable-color);
+  color: var(--white-color);
 }
 /*============== projects */
 .projects-title {
